@@ -12,10 +12,20 @@ const LanguageContext = createContext<LanguageContextType>({
   setLang: () => {},
 })
 
+function getCookie(name: string): string | undefined {
+  const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`))
+  return match ? decodeURIComponent(match[1]) : undefined
+}
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>(() => {
+    // An explicit choice the visitor made on a previous visit always wins.
     const saved = localStorage.getItem('protoys-lang') as Lang
-    return saved === 'cn' || saved === 'en' ? saved : 'cn'
+    if (saved === 'cn' || saved === 'en') return saved
+
+    // Otherwise fall back to the geo-based default set by Edge Middleware.
+    const geo = getCookie('protoys-lang')
+    return geo === 'cn' || geo === 'en' ? geo : 'cn'
   })
 
   const setLang = (newLang: Lang) => {

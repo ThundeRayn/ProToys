@@ -31,7 +31,7 @@ export const contactPageText = {
       ],
     },
     bottom: {
-      heading: ['START YOUR PLUSH TOY', 'CUSTOM PROJECT'],
+      heading: ['START YOUR TOY', 'CUSTOM PROJECT'],
       body: 'Whether you need OEM/ODM customization, sample development, or a product quote, our professional team will provide fast response and full support throughout the process.',
       cta: 'GET A QUOTE',
     },
@@ -69,7 +69,7 @@ export const contactPageText = {
       ],
     },
     bottom: {
-      heading: ['开启您的毛绒玩具定制项目'],
+      heading: ['开启您的定制项目'],
       body: '无论您需要OEM/ODM定制、样品开发还是产品报价，我们的专业团队都将为您提供快速响应与全程支持。',
       cta: '获取报价',
     },

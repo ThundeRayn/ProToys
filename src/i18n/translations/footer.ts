@@ -2,7 +2,7 @@ export const footerText = {
   en: {
     brand: {
       tagline: 'Trusted Plush Toy Manufacturer & Exporter in Global Markets',
-      desc: 'Proven Export Experience · Strict Quality Control\nProviding stable & reliable plush toy manufacturing for global clients.',
+      desc: 'Proven Export Experience · Strict Quality Control\nProviding stable & reliable toy manufacturing for global clients.',
     },
     quickLinks: {
       heading: 'QUICK LINKS',
@@ -27,7 +27,7 @@ export const footerText = {
   cn: {
     brand: {
       tagline: '全球市场信赖的毛绒玩具制造出口企业',
-      desc: '成熟出口经验 · 严格品质管控\n为全球客户提供稳定可靠的毛绒玩具制造服务',
+      desc: '成熟出口经验 · 严格品质管控\n为全球客户提供稳定可靠的玩具制造服务',
     },
     quickLinks: {
       heading: '快速导航',

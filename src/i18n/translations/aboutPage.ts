@@ -2,8 +2,8 @@ export const aboutPageText = {
   en: {
     hero: {
       eyebrow: 'ABOUT PRO TOYS',
-      heading: ['PROFESSIONAL PLUSH', 'TOY FACTORY'],
-      body: 'With over 10 years of experience, Pro Toys is a leading OEM/ODM plush toy manufacturer, providing high quality and safe plush toys to customers worldwide.',
+      heading: ['PROFESSIONAL', 'TOY FACTORY'],
+      body: 'With over 10 years of experience, Pro Toys is a leading OEM/ODM plush toy manufacturer with strong design and development capabilities, delivering innovative, high-quality plush toys to customers worldwide.',
       cta: 'CONTACT US',
     },
     stats: [
@@ -11,8 +11,7 @@ export const aboutPageText = {
       { num: 10000,   suffix: '+m²',  label: 'Factory Area' },
       { num: 300,     suffix: '+',    label: 'Skilled Workers' },
       { num: 20,      suffix: '+',    label: 'Export Countries' },
-      { display: '4 Million+',        label: 'Annual Production' },
-      { display: 'OEM/ODM',           label: 'One-stop Service' },
+      { display: 'R&D',                label: 'One-stop Service' },
     ],
     why: {
       eyebrow: 'WHY CHOOSE PRO TOYS',
@@ -57,8 +56,8 @@ export const aboutPageText = {
   cn: {
     hero: {
       eyebrow: '关于普罗玩具',
-      heading: ['值得信赖的​毛绒玩具', 'OEM/ODM', '制造伙伴'],
-      body: '专注毛绒玩具研发与生产，为全球品牌商、批发商及零售商提供高品质定制解决方案。',
+      heading: ['值得信赖的', 'OEM/ODM', '制造伙伴'],
+      body: '拥有超过10年行业经验，普罗玩具是领先的OEM/ODM毛绒玩具制造商，具备强大的设计研发能力，为全球客户提供创新、高品质的毛绒玩具。',
       cta: '联系我们',
     },
     stats: [
@@ -66,8 +65,7 @@ export const aboutPageText = {
       { num: 10000,   suffix: '+m²', label: '工厂面积' },
       { num: 300,     suffix: '+',   label: '专业工人' },
       { num: 20,      suffix: '+',   label: '出口国家' },
-      { display: '4M+',           label: '年产能' },
-      { display: 'OEM/ODM',          label: '一站式服务' },
+      { display: 'R&D',              label: '一站式服务' },
     ],
     why: {
       eyebrow: '为什么选择宝玩具',

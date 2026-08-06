@@ -3,7 +3,6 @@ import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined'
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined'
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined'
 import PublicOutlinedIcon from '@mui/icons-material/PublicOutlined'
-import FactoryOutlinedIcon from '@mui/icons-material/FactoryOutlined'
 import HandymanOutlinedIcon from '@mui/icons-material/HandymanOutlined'
 import { useLanguage } from '../i18n/LanguageContext'
 import { aboutPageText } from '../i18n/translations/aboutPage'
@@ -13,7 +12,6 @@ const icons = [
   <ApartmentOutlinedIcon   sx={{ fontSize: 20, color: '#c0bdb8' }} />,
   <GroupsOutlinedIcon      sx={{ fontSize: 20, color: '#c0bdb8' }} />,
   <PublicOutlinedIcon      sx={{ fontSize: 20, color: '#c0bdb8' }} />,
-  <FactoryOutlinedIcon     sx={{ fontSize: 20, color: '#c0bdb8' }} />,
   <HandymanOutlinedIcon    sx={{ fontSize: 20, color: '#c0bdb8' }} />,
 ]
 

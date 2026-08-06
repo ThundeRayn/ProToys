@@ -28,7 +28,8 @@ export default function AboutIntroSection() {
   return (
     <div style={{ background: '#f8f8f6', borderTop: '1px solid #f0f0f0', padding: '72px 48px' }}>
       <div style={{ maxWidth: 800, margin: '0 auto' }}>
-        <img src="/Logo_nobackground.png" alt="Pro Toys" style={{ height: 120, width: 'auto', display: 'block', margin: '0 auto 28px' }} />
+        <img src="/Logo_notext_transparent.png" alt="Pro Toys" style={{ height: 70, width: 'auto', display: 'block', margin: '0 auto 8px' }} />
+        <img src="/en-text.png" alt="Pro Toys" style={{ height: 15, width: 'auto', display: 'block', margin: '0 auto 28px', marginLeft: 'calc(50% - 100px)' }} />
         {t.paras.map((p, i) => (
           <p key={i} style={{ fontSize: 15, color: '#444', lineHeight: 1.85, textAlign: 'left', margin: i < t.paras.length - 1 ? '0 0 16px' : '0 0 24px' }}>
             {p}
